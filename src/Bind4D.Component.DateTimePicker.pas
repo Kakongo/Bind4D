@@ -87,7 +87,7 @@ begin
     end;
     ftTime :
     begin
-      FComponent.Date := TBind4DUtils.FormatStrJsonToTime(FAttributes.ValueVariant);
+      FComponent.Time := TBind4DUtils.FormatStrJsonToTime(FAttributes.ValueVariant);
     end;
   end;
 end;
